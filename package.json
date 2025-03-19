@@ -1,0 +1,23 @@
+{
+  "name": "backup-sql-to-s3",
+  "version": "1.0.0",
+  "description": "a worker script to backup a database to s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flicksolutions/backup-sql-to-s3.git"
+  },
+  "author": "Sebastian Flick, Flicks.jetzt",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/flicksolutions/backup-sql-to-s3/issues"
+  },
+  "homepage": "https://github.com/flicksolutions/backup-sql-to-s3#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.758.0",
+    "node-cron": "^3.0.3"
+  }
+}
